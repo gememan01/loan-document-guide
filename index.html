@@ -1675,6 +1675,313 @@
         }
       }
 
+      @media (max-width: 640px) {
+        body {
+          background: #f7faf8;
+          font-size: 16px;
+        }
+
+        button {
+          min-height: 46px;
+          padding: 0 12px;
+          font-size: 15px;
+        }
+
+        input,
+        textarea {
+          min-height: 46px;
+          font-size: 16px;
+        }
+
+        textarea {
+          min-height: 86px;
+        }
+
+        .screen-notice {
+          padding: 8px 12px;
+          font-size: 12px;
+          line-height: 1.45;
+        }
+
+        .topbar {
+          display: grid;
+          min-height: auto;
+          padding: 12px;
+          gap: 12px;
+          border-top-width: 4px;
+        }
+
+        .topbar::after {
+          left: 12px;
+          right: 12px;
+        }
+
+        .brand-lockup {
+          width: 100%;
+          align-items: flex-start;
+          gap: 10px;
+        }
+
+        .nh-mark {
+          width: 46px;
+          height: 46px;
+          flex-basis: 46px;
+          padding: 4px;
+        }
+
+        .brand-vision {
+          font-size: 11px;
+          line-height: 1.3;
+        }
+
+        .brand-branch-row {
+          display: block;
+        }
+
+        .topbar h1,
+        .brand-branch {
+          font-size: 22px;
+        }
+
+        .screen-help-note {
+          margin-top: 5px;
+          white-space: normal;
+          font-size: 13px;
+        }
+
+        .brand-product {
+          font-size: 13px;
+        }
+
+        .topbar-actions {
+          width: 100%;
+          display: grid;
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+          gap: 8px;
+        }
+
+        .topbar-actions button {
+          min-width: 0;
+          width: 100%;
+          min-height: 44px;
+          padding: 0 8px;
+          font-size: 14px;
+        }
+
+        .app-layout {
+          padding: 10px;
+          gap: 12px;
+        }
+
+        .panel {
+          border-radius: 10px;
+          box-shadow: none;
+        }
+
+        .panel-section,
+        .selection-head,
+        .output-head {
+          padding: 15px 14px;
+        }
+
+        .panel-section h2,
+        .selection-panel h2,
+        .output-panel h2 {
+          font-size: 18px;
+        }
+
+        label {
+          font-size: 13px;
+        }
+
+        .income-switch {
+          grid-template-columns: 1fr;
+        }
+
+        #loanKindSwitch {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        .income-switch button,
+        .group-button {
+          min-height: 54px;
+          font-size: 15px;
+        }
+
+        .section-tools,
+        .output-actions,
+        .copy-next-actions,
+        .manual-doc-actions {
+          display: grid;
+          grid-template-columns: 1fr;
+          width: 100%;
+        }
+
+        .section-card {
+          padding: 14px;
+        }
+
+        .section-card h3 {
+          font-size: 17px;
+        }
+
+        .section-card p,
+        .helper-text,
+        .empty-state {
+          font-size: 13px;
+        }
+
+        .doc-token,
+        .type-token {
+          min-height: 30px;
+          font-size: 12px;
+        }
+
+        .year-row,
+        .copy-row,
+        .manual-doc-row {
+          padding: 12px;
+        }
+
+        .year-chip,
+        .copy-chip {
+          min-height: 36px;
+          font-size: 13px;
+        }
+
+        .print-area {
+          padding: 10px;
+          border-radius: 0 0 10px 10px;
+        }
+
+        .guide-sheet {
+          border-radius: 10px;
+          box-shadow: none;
+        }
+
+        .guide-sheet::before,
+        .guide-sheet::after {
+          display: none;
+        }
+
+        .guide-top {
+          padding: 12px;
+        }
+
+        .guide-brand {
+          align-items: flex-start;
+          gap: 9px;
+        }
+
+        .guide-brand .nh-mark {
+          width: 42px;
+          height: 42px;
+          flex-basis: 42px;
+        }
+
+        .guide-vision {
+          font-size: 10.5px;
+        }
+
+        .guide-branch {
+          font-size: 18px;
+        }
+
+        .guide-product,
+        .guide-meta {
+          font-size: 11px;
+        }
+
+        .guide-meta {
+          justify-items: start;
+          white-space: normal;
+        }
+
+        .guide-title {
+          margin: 10px;
+          padding: 16px;
+          border-radius: 10px;
+        }
+
+        .guide-title h2 {
+          font-size: 22px;
+        }
+
+        .guide-title p,
+        .guide-title span {
+          font-size: 12px;
+        }
+
+        .guide-info-grid,
+        .guide-flow {
+          gap: 8px;
+          padding: 10px 10px 0;
+        }
+
+        .guide-type-box,
+        .document-card-list {
+          margin: 10px;
+        }
+
+        .guide-bottom {
+          gap: 8px;
+          padding: 0 10px 12px;
+        }
+
+        .document-section-title {
+          align-items: flex-start;
+          flex-direction: column;
+          gap: 4px;
+          padding: 10px 12px;
+        }
+
+        .document-card {
+          grid-template-columns: 38px 1fr;
+          gap: 10px;
+          padding: 12px 12px 56px;
+        }
+
+        .document-number {
+          width: 34px;
+          height: 34px;
+          border-radius: 10px;
+        }
+
+        .document-source,
+        .document-detail {
+          grid-column: 2;
+        }
+
+        .document-delete {
+          top: auto;
+          right: 12px;
+          bottom: 12px;
+          min-height: 36px;
+        }
+
+        .document-main .doc-name {
+          font-size: 16px;
+        }
+
+        .source-pill,
+        .detail-pill {
+          font-size: 12px;
+        }
+
+        .toast {
+          right: 12px;
+          left: 12px;
+          bottom: 12px;
+          max-width: none;
+        }
+
+        .help-dialog {
+          width: min(100% - 20px, 720px);
+          max-height: calc(100vh - 20px);
+          border-radius: 10px;
+        }
+      }
+
       @media print {
         @page {
           size: A4 portrait;
